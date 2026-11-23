@@ -10,6 +10,16 @@
     justify-self: end;
   }
 
+  #secondary {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-md);
+    line-height: 1.45;
+    padding-block: var(--py-sm);
+    border: solid 1px var(--stroke-color);
+    border-inline: none;
+    justify-content: space-between;
+
+  }
 
 
 

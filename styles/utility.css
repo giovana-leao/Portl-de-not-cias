@@ -7,13 +7,19 @@
 .py-sm {
   padding-block: var(--py-sm);
 }
+.px-base {
+  padding-inline: var(--px-base);
+}
 
+.px-lg {
+  padding-inline: var(--px-lg);
+}
 
 .container {
-  --max-width: 360px;
-  width: min(var(--max-width), 100% - var(--px-base) *2);
+  --max-width: 22.5rem;
+  width: var(--max-width);
+  /* width: min(var(--max-width), 100% - var(--px-base) * 2); */
   margin-inline: auto;
-  /* border: solid violet; */
 }
 
 .desktop-only {
@@ -21,7 +27,7 @@
 }
 
 .even-columns {
-  display: grid;
+  display: flex;
   gap: 1rem;
 }
 
