@@ -51,6 +51,13 @@
 .grid {
   display: grid;
 }
+.grid-flow-col {
+  grid-auto-flow: columns;
+}
+
+.grid-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
 
 .logo {
   width: 6.25rem;

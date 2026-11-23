@@ -1,0 +1,6 @@
+@media (width >= 80em) {
+  section {
+    grid-auto-flow: columns;
+  }
+
+}
