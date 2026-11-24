@@ -1,6 +1,7 @@
-@media (width >= 80em) {
-  section {
-    grid-auto-flow: columns;
+#featured {
+  img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: .25rem;
   }
-
 }
