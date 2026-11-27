@@ -22,11 +22,8 @@
     figcaption {
       position: absolute;
       bottom: 0;
-
       padding: var(--py-fig);
-
-      h1
-
+    
     }
   }
 }

@@ -64,9 +64,7 @@ h1 {
 h2, h3 {
   line-height: 1.4;
 }
-span {
 
-}
 p {
   line-height: 1.6;
   font-weight: var(--fw-base);
