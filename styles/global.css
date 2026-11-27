@@ -22,13 +22,14 @@
 
   --font-family:'Archivo', sans-serif;
   --fw-base: 400;
-  --fw-md: 600;
+  --fw-md: 500;
   --fw-bold: 800;
 
   --fs-sm: 0.875rem;
   --fs-base: 1rem;
   --fs-lg: 1.5rem;
 
+  --py-fig: 1rem;
   --py-base: 1rem;
   --py-lg: 2.5rem;
   --py-md: 1.25rem;
@@ -56,13 +57,15 @@ h1, h2, h3 {
 
 h1 {
   line-height: 1.35;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-lg);
+  margin-top: .5rem;
 }
 h2, h3 {
   line-height: 1.4;
 }
 span {
-  line-height: 1.45;
-  font-weight: var(--fw-md);
+
 }
 p {
   line-height: 1.6;
@@ -73,12 +76,30 @@ img {
   max-width: 100%;
 }
 
+.content-tag {
+  display: inline-block;
+  background-color: var(--brand-color-dark);
+  padding: .25rem .5rem;
+  border-radius: .25rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: var(--fw-md);
+  font-size: .625rem;
+  letter-spacing: 0.04em;
+  color: var(--text-color-primary);
+  box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
+
+
+
+
+}
+
 @media (width >= 80em) {
   :root {
 
   --fs-base: 1.5rem;
  
-    
+  --py-fig: 1.5rem; 
   --py-base: 2.5rem;
   --py-lg: 2.5rem;
   --py-sm: .875rem;

@@ -22,8 +22,24 @@
   margin-inline: auto;
 }
 
+/* MOBILE (Padrão) */
+.mobile-only {
+  display: inline; /* Mostra os 3 pontos */
+}
+
 .desktop-only {
-  display: none;
+  display: none;   /* Esconde o resto da frase */
+}
+
+/* DESKTOP (A partir de 768px) */
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none;   /* Esconde os 3 pontos */
+  }
+
+  .desktop-only {
+    display: inline; /* Mostra o resto da frase na mesma linha */
+  }
 }
 
 .even-columns {
