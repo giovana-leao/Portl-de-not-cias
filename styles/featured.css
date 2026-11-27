@@ -1,7 +1,8 @@
 #featured {
-  img{
-    height: 100%;
-    object-fit: cover;
-    border-radius: .25rem;
+
+  grid-auto-flow: column;
+
+  div:nth-child(2) {
+    grid-template-columns: 1fr 1fr;
   }
 }

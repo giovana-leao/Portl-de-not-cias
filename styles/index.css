@@ -2,4 +2,4 @@
 @import url(utility.css);
 @import url(header.css);
 @import url(sections.css);
-@import url(featured.css);
+@import url(featured.css) (width>=80rem);
